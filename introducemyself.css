@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -107,7 +108,7 @@ img {
 {
     width: 270px;
     height: 400px;
-    background-image: url(/img/의자김중찬.jpg);
+    background-image: url("img/의자김중찬.jpg");
     background-size: cover;
 
 }
