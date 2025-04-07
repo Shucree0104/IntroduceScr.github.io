@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 203, 92);
+    height: 12vh;
+    min-width: 1280px;
+    padding-left: 0px; 
+}
+
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-group {
+    display: flex;
+    align-items: center;
+    margin-left: 60px; 
+    gap: 50px; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: rgb(36, 36, 35);
+}
+
+.menu-group div {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.menu-group .menu1:hover
+{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.menu-group .menu2:hover
+{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.menu-group .menu3:hover
+{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.menu-group .menu4:hover
+{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.main 
+{
+    background-color: rgb(207, 219, 213);
+    min-width: 1280px;
+    padding: 40px 20px; 
+}
+.footer
+{
+    background-color: rgb(36, 36, 35);
+    height: 7vh;
+    min-width: 1280px;
+}
+.section2 
+{
+    margin-top: 40px; 
+}
+
+.section2 .text1 
+{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: rgb(36, 36, 35)
+}
+
+.section2 .text2 {
+    width:900px;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgb(36, 36, 35);
+}
+
+.section2 .img1 
+{
+    width: 270px;
+    height: 400px;
+    background-image: url(/img/의자김중찬.jpg);
+    background-size: cover;
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.BannerText {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5vh;
+    transform-origin: center;
+}
+
+.BannerText:hover
+{
+    transform: translate(-50%, -50%) scale(1.1);
+    transition-duration: 600ms;
+}
+
+.profile{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
